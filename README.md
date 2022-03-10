@@ -1,7 +1,7 @@
 <div align="center">
   
 ## About
-Hi nice to meet you, I'm Nata Inditama. I'm passionate about learning new technologies and solving problems. I'm a big fan of [Javascript](https://www.js.org/) and [PHP](https://www.php.net/). I am committed to developing websites or applications with beautiful interfaces and a good user experience. I'am a self-taught web developer and I'm always looking for new challenges.
+I'm Nata Inditama. I'm passionate about learning new technologies and solving problems. I'm a big fan of [Javascript](https://www.js.org/) and [PHP](https://www.php.net/). I'am a self-taught web developer and I'm always looking for new challenges.
 
 ---
 
@@ -17,6 +17,8 @@ Hi nice to meet you, I'm Nata Inditama. I'm passionate about learning new techno
 ![PHP](https://img.shields.io/badge/php-%230073CF.svg?style=for-the-badge&logo=PHP&logoColor=white&color=777BB4)
 ![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white&color=E34F26)
 ![CSS](https://img.shields.io/badge/css-%23563D7C.svg?style=for-the-badge&logo=CSS3&logoColor=white&color=1572B6)
+
+---
 
 ### Frameworks and Libraries
 
