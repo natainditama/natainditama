@@ -1,7 +1,7 @@
 <div align="center">
   
 ## About
-I'm Nata Inditama. I'm passionate about learning new technologies and solving problems. I'm a big fan of [Javascript](https://www.js.org/) and [PHP](https://www.php.net/). I'am a self-taught web developer and I'm always looking for new challenges.
+I'm Nata Inditama. I'm passionate about learning new technologies and solving problems. I'm a big fan of [Javascript](https://www.js.org/). I'am a self-taught web developer and I'm always looking for new challenges.
 
 ---
 
