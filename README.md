@@ -1,6 +1,6 @@
 # Hello, everyone!
 
-I'm Nata Inditama. I'm passionate about learning new technologies and solving problems. I'm a big fan of [Javascript](https://www.js.org/). I'am a self-taught web developer and I'm always looking for new challenges.
+Hello! I'm Nata Inditama. I'm a Indonesian based web developer and front-end developer focused on crafting clean and user-friendly experiences. I am passionate about building excellent software that improves the lives of those around me.
 
 ## 🔧 Technologies & Tools
 ![JS](https://img.shields.io/badge/JS-%23E4405F.svg?style=for-the-badge&logo=Javascript&logoColor=white&color=F7DF1E)
