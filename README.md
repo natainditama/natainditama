@@ -21,7 +21,7 @@ Creating new experiences, implementing eye pleasing designs and making them come
 ![Tailwind](https://img.shields.io/badge/tailwind-%230073CF.svg?style=for-the-badge&logo=TailwindCSS&logoColor=white&color=06B6D4)
 ![Express](https://img.shields.io/badge/express-%230073CF.svg?style=for-the-badge&logo=Express&logoColor=white&color=000000)
 ![Node](https://img.shields.io/badge/node-%230073CF.svg?style=for-the-badge&logo=Node.js&logoColor=white&color=339933) 
-![Git](https://img.shields.io/badge/git-%23F44336.svg?style=for-the-badge&logo=Git&logoColor=white&color=F05032) <br />
+![Git](https://img.shields.io/badge/git-%23F44336.svg?style=for-the-badge&logo=Git&logoColor=white&color=F05032)
 ![GitHub](https://img.shields.io/badge/github-%23F44336.svg?style=for-the-badge&logo=GitHub&logoColor=white&color=181717)
 ![Visual Studio Code](https://img.shields.io/badge/VSCode-%23F44336.svg?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white&color=007ACC)
 ![Chrome](https://img.shields.io/badge/chrome-%23F44336.svg?style=for-the-badge&logo=Google%20Chrome&logoColor=white&color=4285F4)
