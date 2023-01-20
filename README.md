@@ -2,15 +2,15 @@
   
 # Nata Inditama
   
-Hi there! I'm Nata, a self-taught developer. Today I'm enthralled by web development. <br />
-Creating new experiences, implementing eye pleasing designs and making them come to life with animation is what I do best.
+Hi there! I'm Nata, a self-taught developer. Today I'm enthralled by web development. Creating new experiences, implementing eye pleasing designs and making them come to life with animation is what I do best.
 
 </div>
 
-<br />
 
 <!-- Technologies -->
 ## :dart: Technologies
+
+<div align="center">
 
 ![Javascript](https://img.shields.io/badge/javascript-%23E4405F.svg?style=for-the-badge&logo=Javascript&logoColor=white&color=F7DF1E)
 ![PHP](https://img.shields.io/badge/php-%230073CF.svg?style=for-the-badge&logo=PHP&logoColor=white&color=777BB4)
@@ -31,6 +31,8 @@ Creating new experiences, implementing eye pleasing designs and making them come
 ![Typescript](https://img.shields.io/badge/typescript-%23F44336.svg?style=for-the-badge&logo=typescript&logoColor=white&color=3178C6)
 ![Laravel](https://img.shields.io/badge/laravel-%23F44336.svg?style=for-the-badge&logo=laravel&logoColor=white&color=FF2D20)
 ![Composer](https://img.shields.io/badge/composer-%23F44336.svg?style=for-the-badge&logo=composer&logoColor=white&color=885630)
+
+</div>
 
  
 <!-- GitHub Stats -->
