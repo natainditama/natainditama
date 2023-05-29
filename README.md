@@ -23,13 +23,13 @@
   </p>
 
   <h4>
-    <a href="mailto:natainditama.dev@gmail.com">✉️ Email</a>
+    <a href="mailto:natainditama.dev@gmail.com">Email</a>
     <span> · </span>
-    <a href="https://natainditama.pages.dev">🌐 Website</a>
+    <a href="https://natainditama.pages.dev">Website</a>
     <span> · </span>
-    <a href="https://www.linkedin.com/in/natainditama"> 💼 LinkedIn</a>
+    <a href="https://www.linkedin.com/in/natainditama">LinkedIn</a>
     <span> · </span>
-    <a href="https://t.me/natainditama">💬 Telegram</a>
+    <a href="https://t.me/natainditama">Telegram</a>
   </h4>
 </div>
 
@@ -53,7 +53,7 @@
 <!-- About Me -->
 ## 🌟 About Me
 
-I'm Nata Inditama, a passionate self-taught developer with a strong focus on fueling innovation through code. I enjoy exploring new technologies, solving complex problems, and turning ideas into reality. With a continuous learning mindset, I strive to stay updated with the latest trends and best practices in the ever-evolving world of software development.
+I'm Nata Inditama, a passionate self-taught developer dedicated to innovation through code. I thrive on solving complex problems, exploring new technologies, and bringing ideas to life. With a growth mindset, I continuously learn and stay up-to-date with the latest trends and best practices in software development.
 
 <!-- Skills -->
 ## 🔧 Skills
