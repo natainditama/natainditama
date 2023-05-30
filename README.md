@@ -58,11 +58,11 @@ I'm Nata Inditama, a passionate self-taught developer dedicated to innovation th
 <!-- Skills -->
 ## 🔧 Skills
 
-- 💻 **Programming Languages:** JavaScript, PHP
-- 🌐 **Web Development:** Next.js, Node.js, Codeigniter
+- 💻 **Programming Languages:** JavaScript, PHP, Typescript
+- 🌐 **Web Development:** Next.js, Node.js, Codeigniter, Laravel
 - 🗄️ **Database:** MySQL, MongoDB, Firebase
 - 📚 **Version Control:** Git, GitHub
-- 🛠️ **Other Tools:** VS Code, Postman, Chrome, XAMPP
+- 🛠️ **Other Tools:** VSCode, Postman, Chrome, XAMPP
 
 <!-- Projects -->
 ## 🎯 Projects
@@ -75,22 +75,4 @@ I'm Nata Inditama, a passionate self-taught developer dedicated to innovation th
 <!-- GitHub Stats -->
 ## 📈 GitHub Stats
 
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=natainditama&langs_count=3&theme=dark"
-    media="(prefers-color-scheme: dark)" />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=natainditama&langs_count=3&theme=default"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=natainditama&langs_count=3" />
-</picture>
-
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&line_height=27&theme=dark&count_private=true"
-    media="(prefers-color-scheme: dark)" />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&line_height=27&theme=default&count_private=true"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img src="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&line_height=27&count_private=true" />
-</picture>
+![Metrics](https://metrics.lecoq.io/natainditama?template=classic&languages=1&introduction=1&followup=1&lines=1&traffic=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.details=percentage&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=1&followup=false&followup.sections=repositories&followup.indepth=false&followup.archived=true&traffic=false&introduction=false&introduction.title=true&config.timezone=Asia%2FSingapore)
