@@ -4,7 +4,7 @@
 
 <br />
 
-<p align="center">
+<p align="left">
     <a href="https://natainditama.pages.dev">
       <img src="https://img.shields.io/website-up-down-green-red/http/natainditama.pages.dev" />
     </a>
@@ -22,9 +22,11 @@
 </p>
 
 <!-- About Me -->
+
 ## 🌟 About Me
 
 <!-- Skills -->
+
 ### 🔧 Skills
 
 - 💻 **Programming Languages:** JavaScript, PHP, Typescript
@@ -34,11 +36,13 @@
 - 🛠️ **Other Tools:** VSCode, Postman, Chrome, XAMPP
 
 <!-- GitHub Stats -->
+
 ### 📈 GitHub Stats
 
 ![Metrics](https://metrics.lecoq.io/natainditama?template=classic&introduction=1&lines=1&achievements=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=1&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=0&introduction=false&introduction.title=true&config.timezone=Asia%2FSingapore)
 
 <!-- Contact -->
+
 ## 🤝 Contact
 
 Contact me for inquiries, suggestions, or contributions via the following channels:
