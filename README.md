@@ -6,18 +6,25 @@
 
 <p align="left">
     <a href="https://natainditama.pages.dev">
-      <img src="https://img.shields.io/website-up-down-green-red/http/natainditama.pages.dev" />
+      <img src="https://img.shields.io/website?url=http%3A%2F%2Fnatainditama.pages.dev&up_color=%2324b36b&labelColor=%23595959&label=Website" alt="Website" />
+    </a>
+   <a href="https://github.com/natainditama/">
+      <img
+        src="https://img.shields.io/github/followers/natainditama?label=Followers&labelColor=%23595959&color=%2324b36b"
+        alt="Followers" />
+    </a>
+   <a href="https://github.com/natainditama/">
+      <img
+        src="https://img.shields.io/github/stars/natainditama?label=Stars&labelColor=%23595959&color=%2324b36b"
+        alt="Stars" />
     </a>
     <a href="https://github.com/natainditama/">
       <img
-        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnatainditama1212%2Fhit-counter"
-        alt="hits counter " />
+        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnatainditama1212%2Fhit-counter&count_bg=%2324B36B&title_bg=%23595959&title=Hits"
+        alt="Hits Counter" />
     </a>
     <a href="https://github.com/natainditama/">
-      <img src="https://img.shields.io/github/followers/natainditama?style=flat-square&color=green" alt="followers" />
-    </a>
-    <a href="https://github.com/natainditama/">
-      <img src="https://komarev.com/ghpvc/?username=natainditama&style=flat-square&color=green" alt="views counter" />
+      <img src="https://komarev.com/ghpvc/?username=natainditama&color=24b36b&label=Profile+Views" alt="Views Counter" />
     </a>
 </p>
 
@@ -39,7 +46,7 @@
 
 ### 📈 GitHub Stats
 
-![Metrics](https://metrics.lecoq.io/natainditama?template=classic&introduction=1&lines=1&achievements=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=1&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=0&introduction=false&introduction.title=true&config.timezone=Asia%2FSingapore)
+![Metrics](https://metrics.lecoq.io/natainditama)
 
 <!-- Contact -->
 
