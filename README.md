@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://github.com/natainditama/natainditama/assets/81244669/3901e8cc-cc18-41fe-80ac-b6b6deb8b493" alt="screenshot" />
+  <picture>  
+    <img src="./header-image.png" alt="screenshot" />
+  </picture>
 </div>
 
 <br />
@@ -46,7 +48,9 @@
 
 ### 📈 GitHub Stats
 
-![Metrics](https://metrics.lecoq.io/natainditama)
+<picture>
+  <img src="./github-metrics.svg" alt="Metrics">
+</picture>
 
 <!-- Contact -->
 
