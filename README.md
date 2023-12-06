@@ -42,7 +42,7 @@
 - 🌐 **Web Development:** Next.js, Node.js, Codeigniter, Laravel
 - 🗄️ **Database:** MySQL, MongoDB, Firebase
 - 📚 **Version Control:** Git, GitHub
-- 🛠️ **Other Tools:** VSCode, Postman, Chrome, XAMPP
+- 🛠️ **Tools:** VSCode, Postman, Chrome
 
 <!-- GitHub Stats -->
 
