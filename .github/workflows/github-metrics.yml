@@ -27,6 +27,8 @@ jobs:
           plugin_topics_mode: labels
           plugin_followup: yes
           plugin_followup_sections: repositories
+          plugin_languages: yes
+          plugin_languages_sections: most-used 
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_secrets: yes
