@@ -1,7 +1,7 @@
 name: Github Metrics
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "* * * * *"}]
   workflow_dispatch:
 jobs:
   github-metrics:
