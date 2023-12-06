@@ -22,6 +22,9 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_sections: time, projects, languages, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: labels
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_secrets: yes
