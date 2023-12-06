@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/NataInditamaDev/template/assets/81244669/ae642864-15a6-4e18-877b-e04fa9914641" alt="screenshot" />
+  <img src="https://github.com/natainditama/natainditama/assets/81244669/3901e8cc-cc18-41fe-80ac-b6b6deb8b493" alt="screenshot" />
 </div>
 
 <br />
