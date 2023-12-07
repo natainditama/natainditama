@@ -34,20 +34,6 @@
 
 ## 🌟 About Me
 
-<!-- Skills -->
-
-### 🔧 Skills
-
-- 💻 **Programming Languages:** JavaScript, PHP, Typescript
-- 🌐 **Web Development:** Next.js, Node.js, Codeigniter, Laravel
-- 🗄️ **Database:** MySQL, MongoDB, Firebase
-- 📚 **Version Control:** Git, GitHub
-- 🛠️ **Tools:** VSCode, Postman, Chrome
-
-<!-- GitHub Stats -->
-
-### 📈 GitHub Stats
-
 <picture>
   <img src="./github-metrics.svg" alt="Metrics">
 </picture>
