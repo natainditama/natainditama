@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="763" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1052" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2{margin:8px 0 2px;padding:0;color:#0366d6;font-size:20px;font-weight:700}h2{font-weight:400;font-size:16px}.gauge text,h1 svg,h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.gauge{stroke-linecap:round;fill:none}.achievement .gauge.info,.gauge.info{color:#58a6ff}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text{font-size:40px;font-family:monospace;text-anchor:middle;font-weight:600}.gauge .title{font-size:18px;color:#777}.topics{display:flex;flex-wrap:wrap}.topics img{border-radius:5px;margin:4px}.repository{display:flex;flex-direction:column;width:100%;margin:6px 0}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.added{color:#3fb950}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement .value{background-color:#58a6ff26}.achievement.x .title{color:#666}.achievement.x .gauge.info{color:#b0b0b0}.achievement.x .value{background-color:#b0b0b026}.achievement.b .title{color:#9d8fff}.achievement.b .gauge.info{color:#9e91ff}.achievement.b .value{background-color:#9e91ff26}.achievement.a .title{color:#d79533}.achievement.a .gauge.info{color:#e7bd69}.achievement.a .value{background-color:#e7bd6926}.achievement.secret .title{color:#ff76cd}.achievement.secret .gauge.info{color:#ff79d1}.achievement.secret .value{background-color:#ff79d126}.achievement .gh,.achievement .value{border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap}.achievement .gauge-arc,.achievement .gauge-base{stroke-width:6}.achievement .value-wrapper{margin-bottom:-50px;margin-top:36px;display:none}.achievement .value{margin-left:46px}.achievements.compact{display:flex;flex-wrap:wrap}.achievements.compact .achievement{flex-direction:column-reverse;align-items:center;width:80px}#metrics-end,.achievements.compact .info{width:100%}.achievements.compact .achievement .title{margin-bottom:2px;text-transform:capitalize;text-align:center}.achievements.compact .achievement .title .prefix{min-height:13px;font-size:10px;display:block;margin-bottom:-.25rem}.achievements.compact .achievement .value-wrapper{display:flex}.achievements.compact .achievement .gh,.achievements.compact .achievement .text{display:none}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2{margin:8px 0 2px;padding:0;color:#0366d6;font-size:20px;font-weight:700}h2{font-weight:400;font-size:16px}.gauge text,h1 svg,h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}.field.language{margin:0 8px;flex-grow:0}.label{background-color:#58a6ff30;color:#0366d6;padding:0 10px;font-weight:500;line-height:22px;margin:2px 5px;white-space:nowrap;border-radius:32px;font-size:12px}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.gauge{stroke-linecap:round;fill:none}.achievement .gauge.info,.gauge.info,.markdown a{color:#58a6ff}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text{font-size:40px;font-family:monospace;text-anchor:middle;font-weight:600}.gauge .title{font-size:18px;color:#777}.topics{display:flex;flex-wrap:wrap}.topics img{border-radius:5px;margin:4px}.repository{display:flex;flex-direction:column;width:100%;margin:6px 0}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.added{color:#3fb950}.people{padding:0 10px}.people .avatar{margin:0 2px}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement .value{background-color:#58a6ff26}.achievement.x .title{color:#666}.achievement.x .gauge.info{color:#b0b0b0}.achievement.x .value{background-color:#b0b0b026}.achievement.b .title{color:#9d8fff}.achievement.b .gauge.info{color:#9e91ff}.achievement.b .value{background-color:#9e91ff26}.achievement.a .title{color:#d79533}.achievement.a .gauge.info{color:#e7bd69}.achievement.a .value{background-color:#e7bd6926}.achievement.s .gauge.info,.achievement.s .title{color:#eb355e}.achievement.s .value{background-color:#eb355e26}.achievement.secret .title{color:#ff76cd}.achievement.secret .gauge.info{color:#ff79d1}.achievement.secret .value{background-color:#ff79d126}.achievement .gh,.achievement .value{border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap}.achievement .gauge-arc,.achievement .gauge-base{stroke-width:6}.achievement .value-wrapper{margin-bottom:-50px;margin-top:36px;display:none}.achievement .value{margin-left:46px}.achievements.compact{display:flex;flex-wrap:wrap}.achievements.compact .achievement{flex-direction:column-reverse;align-items:center;width:80px}#metrics-end,.achievements.compact .info{width:100%}.achievements.compact .achievement .title{margin-bottom:2px;text-transform:capitalize;text-align:center}.achievements.compact .achievement .title .prefix{min-height:13px;font-size:10px;display:block;margin-bottom:-.25rem}.achievements.compact .achievement .value-wrapper{display:flex}.achievements.compact .achievement .gh,.achievements.compact .achievement .text{display:none}.markdown b{width:97%}.markdown a{text-decoration:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.markdown b,code{display:inline-block}span.code{margin:0 4px -3px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            776 Commits
+                            777 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -127,7 +127,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
                             </svg>
-                            Starred 477 repositories
+                            Starred 478 repositories
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -177,7 +177,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    0 added, 0 removed
+                                    15.3k added, 9.64k removed
                                 </div>
                             </section>
                             <section>
@@ -220,6 +220,68 @@
                 <div class="row">
                     <section>
                         <div class="topics fill-width">
+                            <div class="label" title="JavaScript (JS) is a lightweight interpreted programming language with first-class functions.">javascript</div>
+                            <div class="label" title="Android is an operating system built by Google designed for mobile devices.">android</div>
+                            <div class="label" title="C++ is a general purpose and object-oriented programming language.">c++</div>
+                            <div class="label" title="HTML is the fundamental markup language for webpages.">html</div>
+                            <div class="label" title="Linux is an open source kernel.">linux</div>
+                            <div class="label" title="C is a general purpose programming language that first appeared in 1972.">c</div>
+                            <div class="label" title="Algorithms are self-contained sequences that carry out a variety of tasks.">algorithm</div>
+                            <div class="label" title="Cascading Style Sheets (CSS) is a language used most often to style and improve upon the appearance of views.">css</div>
+                            <div class="label" title="React is an open source JavaScript library used for designing user interfaces.">react</div>
+                            <div class="label" title="An API (Application Programming Interface) is a collection of protocols and subroutines for building software.">api</div>
+                            <div class="label" title="A database is a structured set of data held in a computer, usually a server.">database</div>
+                            <div class="label" title="Bootstrap is an HTML, CSS, and JavaScript framework.">bootstrap</div>
+                            <div class="label" title="Git is the most widely used version control system.">git</div>
+                            <div class="label" title="Docker is a platform built for developers to build and run applications.">docker</div>
+                            <div class="label" title="Node.js is a tool for executing JavaScript in a variety of environments.">node.js</div>
+                            <div class="label" title="SQL is a standard language for storing, retrieving and manipulating data in databases.">sql</div>
+                            <div class="label" title="Google LLC is an American multinational technology company that specializes in Internet-related services and products.">google</div>
+                            <div class="label" title="MySQL is an open source relational database management system.">mysql</div>
+                            <div class="label" title="Chrome is a web browser from the tech company Google.">chrome</div>
+                            <div class="label" title="Vue.js is a JavaScript framework for building interactive web applications.">vue.js</div>
+                            <div class="label" title="PHP is a popular general-purpose scripting language that works particularly well for server-side web development.">php</div>
+                            <div class="label" title="The GitHub API allows you to build applications that integrate with GitHub.">github api</div>
+                            <div class="label" title="A CLI, or command-line interface, is a console that helps users issue commands to a program.">command line interface</div>
+                            <div class="label" title="Front end is the programming and layout that people see and interact with.">front end</div>
+                            <div class="label" title="Chrome extensions enable users to customize the Chrome browsing experience.">chrome extension</div>
+                            <div class="label" title="Bash is a shell and command language interpreter for the GNU operating system.">bash</div>
+                            <div class="label" title="The terminal is an interface in which you can type and execute text-based commands.">terminal</div>
+                            <div class="label" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.">typescript</div>
+                            <div class="label" title="Ajax is a technique for creating interactive web applications.">ajax</div>
+                            <div class="label" title="HTTP (Hypertext Transfer Protocol) is the standard for communication across the web.">http</div>
+                            <div class="label" title="Windows is Microsoft&amp;apos;s GUI-based operating system.">windows</div>
+                            <div class="label" title="React Native is a JavaScript mobile framework developed by Facebook.">react native</div>
+                            <div class="label" title="MongoDB is an open source NoSQL document-oriented database.">mongodb</div>
+                            <div class="label" title="jQuery is a lightweight library that simplifies programming with JavaScript.">jquery</div>
+                            <div class="label" title="PostgreSQL is an open source database system.">postgresql</div>
+                            <div class="label" title="Firefox is an open source web browser from Mozilla.">firefox</div>
+                            <div class="label" title="Firebase is a mobile app development platform that provides data analysis and database web services for developers.">firebase</div>
+                            <div class="label" title="npm is a package manager for JavaScript included with Node.js.">npm</div>
+                            <div class="label" title="Telegram is a non-profit, cloud-based instant messaging service.">telegram</div>
+                            <div class="label" title="The PHP Framework for Web Artisans.">laravel</div>
+                            <div class="label" title="WordPress is a popular content management system, used for websites, forums, social, ecommerce, and blogs.">wordpress</div>
+                            <div class="label" title="Markdown is a lightweight markup language.">markdown</div>
+                            <div class="label" title="A representational state transfer (REST) API is a way to provide compatibility between computer systems on the internet.">rest api</div>
+                            <div class="label" title="Electron is a framework for building cross-platform desktop applications with web technology.">electron</div>
+                            <div class="label" title="Babel is a compiler for writing next generation JavaScript, today.">babel</div>
+                            <div class="label" title="Express is a minimal Node.js framework for web and mobile applications.">express</div>
+                            <div class="label" title="Streamline your code deployment so you can focus on your product.">deployment</div>
+                            <div class="label" title="A web application is any computer program that performs a specific function by using a web browser as its client.">web app</div>
+                            <div class="label" title="A NoSQL database refers to a database whose storage format is modeled differently from relational databases.">nosql</div>
+                            <div class="label" title="XML is subset of SGML (Standard Generalized Markup Language) used to store and transport data.">xml</div>
+                            <div class="label" title="Sass is a stable extension to classic CSS.">sass</div>
+                            <div class="label" title="Homebrew is a package manager for macOS.">homebrew</div>
+                            <div class="label" title="Redux is a predictable state container for JavaScript apps.">redux</div>
+                            <div class="label" title="Material Design is a unified system of theory and tools for creating digital experiences developed by Google.">material design</div>
+                            <div class="label" title="Webpack is a bundler that takes modules with dependencies and creates static assets.">webpack</div>
+                            <div class="label" title="The pluggable linting utility for JavaScript and JSX.">eslint</div>
+                            <div class="label" title="A package manager is a set of tools that automates and manages computer software.">package manager</div>
+                            <div class="label" title="Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.">mongoose</div>
+                            <div class="label" title="Gulp is a toolkit for automating and streamlining web development.">gulp</div>
+                            <div class="label" title="Jekyll is a simple, blog-aware static site generator.">jekyll</div>
+                            <div class="label" title="Ember is a framework for creating web applications.">ember</div>
+                            <div class="label" title="Symfony is a set of reusable PHP components and a web framework.">symfony</div>
                         </div>
                     </section>
                 </div>
@@ -269,7 +331,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="143.11666666666667 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="143.63333333333333 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" fill-rule="evenodd">
@@ -288,10 +350,10 @@
                                     <span class="prefix">Great</span>
                                     stargazer
                                     <div class="value-wrapper">
-                                        <div class="value">477</div>
+                                        <div class="value">478</div>
                                     </div>
                                 </div>
-                                <div class="text">Starred 477 repositories</div>
+                                <div class="text">Starred 478 repositories</div>
                             </div>
                         </div>
                         <div class="achievement b largeable-width-half">
@@ -438,7 +500,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Developer
-                                    <span class="gh">ranked 3.32m out of 123m users</span>
+                                    <span class="gh">ranked 3.32m out of 125m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">17</div>
                                     </div>
@@ -532,7 +594,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 242k out of 123m users</span>
+                                    <span class="gh">ranked 242k out of 125m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">48</div>
                                     </div>
@@ -659,7 +721,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 2.12m out of 52.2m repositories</span>
+                                    <span class="gh">ranked 2.12m out of 66m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">4</div>
                                     </div>
@@ -700,7 +762,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 927k out of 52.2m repositories</span>
+                                    <span class="gh">ranked 891k out of 66m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">26</div>
                                     </div>
@@ -742,6 +804,48 @@
                                     </div>
                                 </div>
                                 <div class="text">Participated in discussions 5 times</div>
+                            </div>
+                        </div>
+                        <div class="achievement secret largeable-width-half">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" fill="white"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
+                                        <circle class="gauge-base" r="25" cx="28" cy="28"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="155 155"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g transform="translate(3 4)" fill="none" fill-rule="evenodd">
+                                            <path d="M10 37.5l.049.073a2 2 0 002.506.705l24.391-11.324a2 2 0 00.854-2.874l-2.668-4.27a2 2 0 00-2.865-.562L10.463 34.947A1.869 1.869 0 0010 37.5zM33.028 28.592l-4.033-6.58" stroke="#FF48BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path stroke="#FF48BD" stroke-width="2" stroke-linejoin="round" d="M15.52 37.004l-2.499-3.979"/>
+                                            <path stroke="#FF48BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M25.008 48.011l.013-15.002M17.984 47.038l6.996-14.035M32.005 47.029l-6.987-14.016"/>
+                                            <path d="M2.032 17.015A23.999 23.999 0 001 24c0 9.3 5.29 17.365 13.025 21.35m22-.027C43.734 41.33 49 33.28 49 24a24 24 0 00-1.025-6.96M34.022 1.754A23.932 23.932 0 0025 0c-2.429 0-4.774.36-6.983 1.032" stroke="#FF92D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M40.64 8.472c-1.102-2.224-.935-4.764 1.382-6.465-.922-.087-2.209.326-3.004.784a6.024 6.024 0 00-2.674 7.229c.94 2.618 3.982 4.864 7.66 3.64 1.292-.429 2.615-1.508 2.996-2.665-1.8.625-5.258-.3-6.36-2.523zM21.013 6.015c-.22-.802-3.018-1.295-4.998-.919M4.998 8.006C2.25 9.22.808 11.146 1.011 12.009" stroke="#FF48BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <circle stroke="#FF92D8" stroke-width="2" cx="11" cy="9" r="6"/>
+                                            <path d="M.994 12.022c.351 1.38 5.069 1.25 10.713-.355 5.644-1.603 9.654-4.273 9.303-5.653" stroke="#FF48BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M26.978 10.105c.318 1.123.573 1.373 1.71 1.679-1.135.314-1.388.566-1.698 1.69-.318-1.122-.573-1.373-1.711-1.679 1.135-.314 1.39-.566 1.7-1.69" fill="#FF92D8"/>
+                                            <path d="M26.978 10.105c.318 1.123.573 1.373 1.71 1.679-1.135.314-1.388.566-1.698 1.69-.318-1.122-.573-1.373-1.711-1.679 1.135-.314 1.39-.566 1.7-1.69z" stroke="#FF92D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M9.929 22.737c.317 1.121.573 1.372 1.71 1.678-1.135.314-1.389.566-1.699 1.69-.318-1.121-.573-1.372-1.71-1.679 1.134-.313 1.389-.566 1.699-1.69" fill="#FF92D8"/>
+                                            <path d="M9.929 22.737c.317 1.121.573 1.372 1.71 1.678-1.135.314-1.389.566-1.699 1.69-.318-1.121-.573-1.372-1.71-1.679 1.134-.313 1.389-.566 1.699-1.69z" stroke="#FF92D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M38.912 33.684c.318 1.122.573 1.373 1.711 1.679-1.136.313-1.39.565-1.7 1.69-.317-1.123-.573-1.372-1.71-1.68 1.136-.313 1.389-.565 1.7-1.689" fill="#FF92D8"/>
+                                            <path d="M38.912 33.684c.318 1.122.573 1.373 1.711 1.679-1.136.313-1.39.565-1.7 1.69-.317-1.123-.573-1.372-1.71-1.68 1.136-.313 1.389-.565 1.7-1.689z" stroke="#FF92D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">
+                                    <span class="prefix"></span>
+                                    Explorer
+                                    <div class="value-wrapper">
+                                        <div class="value">☆</div>
+                                    </div>
+                                </div>
+                                <div class="text">Starred a topic on GitHub Explore</div>
                             </div>
                         </div>
                         <div class="achievement secret largeable-width-half">
@@ -833,7 +937,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 7 Dec 2023, 08:09:40  with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 7 Dec 2023, 08:53:11  with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
