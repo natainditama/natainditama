@@ -37,13 +37,3 @@
 <picture>
   <img src="./github-metrics.svg" alt="Metrics">
 </picture>
-
-<!-- Contact -->
-
-## 🤝 Contact
-
-Contact me for inquiries, suggestions, or contributions via the following channels:
-
-- [Email](mailto:natainditama.dev@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/natainditama)
-- [GitHub](https://github.com/natainditama)
