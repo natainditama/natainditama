@@ -2,7 +2,7 @@ name: Github Metrics
 on:
   # Schedule daily updates
   schedule: 
-    - cron: "0 */4 * * *" 
+    - cron: "0 */8 * * *" 
   push: 
     branches: ["master", "main"]
 jobs:
