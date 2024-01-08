@@ -25,5 +25,6 @@
 ## 🌟 About Me
 
 <picture>
-  <img src="./github-metrics.svg" alt="Metrics">
+  <source srcset="./github-metrics-small.svg" media="(max-width: 1024px)" />
+  <img src="./github-metrics.svg" alt="Metrics" loading="lazy" title="Github Metrics">
 </picture>
