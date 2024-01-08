@@ -1,19 +1,26 @@
 name: Github Metrics
 on:
   # Schedule daily updates
-  schedule: 
-    - cron: "0 */8 * * *" 
-  push: 
-    branches: ["master", "main"]
+  schedule:
+    - cron: "0 */8 * * *"
+  push:
+    branches: [master, main]
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
     steps:
-      - uses: lowlighter/metrics@latest
+      # Generate github metrics
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          config_display: large
+          filename: github-metrics.*
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_message: "chore: Update ${filename}"
           plugin_introduction: no
@@ -33,6 +40,32 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_display: compact
           plugin_achievements_limit: 0
-          config_order: base.header, introduction, base.activity+community, base.repositories, lines, wakatime, topics, achievements  
-          
-          
+          config_order: base.header, introduction, base.activity+community, base.repositories, lines, wakatime, topics, achievements
+     
+      # Generate mobile github metrics
+      - name: Generate mobile metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          config_display: regular
+          filename: github-metrics-small.*
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: Update ${filename}"
+          plugin_introduction: no
+          plugin_introduction_title: yes
+          plugin_lines: yes
+          plugin_lines_sections: base
+          plugin_lines_repositories_limit: 4
+          plugin_lines_history_limit: 1
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, languages, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: mastered
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: compact
+          plugin_achievements_limit: 0
+          config_order: base.header, introduction, base.activity+community, base.repositories, lines, wakatime, topics, achievements
