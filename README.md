@@ -28,3 +28,12 @@
   <source srcset="./github-metrics-small.svg" media="(max-width: 1024px)" />
   <img src="./github-metrics.svg" alt="Metrics" loading="lazy" title="Github Metrics">
 </picture>
+
+<!-- About Me -->
+## 📈 Github Stats
+
+<a href="#">
+  <picture>
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=natainditama&hide_border=true&card_width=480&background=FFFFFF00&border=FFFFFF00&dates=777777&fire=0366D6&ring=0366D6&currStreakLabel=0366D6&stroke=FFFFFF00&currStreakNum=959DA5&sideNums=959DA5&sideLabels=777777" alt="GitHub Streak" />
+  </picture>
+</a>
