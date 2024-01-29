@@ -49,7 +49,7 @@
 ## &#x1f4c8; GitHub Stats
 
 <a href="https://github.com/natainditama/natainditama">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=natainditama&langs_count=3&theme=radical" alt="Top languanges" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=natainditama&langs_count=3&theme=radical&layout=compact" alt="Top languanges" />
 </a>
 
 <a href="https://github.com/natainditama/natainditama">
