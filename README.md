@@ -16,6 +16,15 @@
 </div>
 
 <div align="center">
+  <h2></h2>
+
+  <picture>
+    <source srcset="./github-metrics-small.svg" media="(max-width: 1024px)" />
+    <img src="./github-metrics.svg" alt="Metrics" loading="lazy" title="Github Metrics" />
+  </picture>
+</div>
+
+<div align="center">
   <a href="https://github.com/natainditama">
     <picture>
       <source
@@ -49,13 +58,4 @@
       />
     </picture>
   </a>
-</div>
-
-<div align="center">
-  <h2></h2>
-
-  <picture>
-    <source srcset="./github-metrics-small.svg" media="(max-width: 1024px)" />
-    <img src="./github-metrics.svg" alt="Metrics" loading="lazy" title="Github Metrics" />
-  </picture>
 </div>
