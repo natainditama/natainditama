@@ -12,21 +12,20 @@
 
 <div align="center">
   <a href="https://github.com/natainditama">
-    <!-- <picture>
-      <source srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&theme=dark&hide_border=true&card_width=420" media="(prefers-color-scheme: dark)" />
-      <source srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&theme=default&hide_border=true&card_width=420" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" /> -->
+    <picture>
+      <source srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&theme=dark&hide_border=true&card_width=220" media="(prefers-color-scheme: dark)" />
+      <source srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&theme=default&hide_border=true&card_width=220" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
       <img src="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&hide_border=true&card_width=220" />
-    <!-- </picture> -->
+    </picture>
   </a>
 
   <a href="https://github.com/natainditama">
-    <!-- <picture>
-      <source srcset="https://github-readme-streak-stats.herokuapp.com?user=natainditama&border_radius=&ring=2F80ED&fire=4C71F2&currStreakLabel=4C71F2&theme=dark&border=EBEBEB00&card_width=420" media="(prefers-color-scheme: dark)" />
-      <source srcset="https://github-readme-streak-stats.herokuapp.com?user=natainditama&border_radius=&ring=2F80ED&fire=4C71F2&currStreakLabel=4C71F2&theme=default&border=EBEBEB00&card_width=420" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" /> -->
+      <source srcset="https://github-readme-streak-stats.herokuapp.com?user=natainditama&border_radius=&ring=2F80ED&fire=4C71F2&currStreakLabel=4C71F2&theme=dark&border=EBEBEB00&card_width=350" media="(prefers-color-scheme: dark)" />
+      <source srcset="https://github-readme-streak-stats.herokuapp.com?user=natainditama&border_radius=&ring=2F80ED&fire=4C71F2&currStreakLabel=4C71F2&theme=default&border=EBEBEB00&card_width=350" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
       <img src="https://github-readme-streak-stats.herokuapp.com?user=natainditama&border_radius=&ring=2F80ED&fire=4C71F2&currStreakLabel=4C71F2&border=EBEBEB00&card_width=350" />
-    <!-- </picture> -->
   </a>
 </div>
+
 
 ## 
 
