@@ -8,9 +8,6 @@
       src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnatainditama1212%2Fhit-counter&count_bg=%232563eb&title_bg=%23595959&title=Hits"
       alt="Hits Counter" />
   </a>
-  <a href="https://natainditama.pages.dev">
-    <img src="https://img.shields.io/website?url=http%3A%2F%2Fnatainditama.pages.dev&up_color=%232563eb&labelColor=%23595959&label=Website" alt="Website" />
-  </a>
 </div>
 
 <div align="center">
