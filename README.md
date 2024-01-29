@@ -1,6 +1,5 @@
-## 🌟 About Me
-
-<div align="left">
+<div align="center">
+  <h2>🌟 About Me</h2>  
   <a href="https://github.com/natainditama/">
     <img src="https://komarev.com/ghpvc/?username=natainditama&color=2563eb&label=Profile+Views" alt="Views Counter" />
   </a>
@@ -15,15 +14,6 @@
 </div>
 
 <div align="center">
-  <picture>
-    <source srcset="./github-metrics-small.svg" media="(max-width: 1024px)" />
-    <img src="./github-metrics.svg" alt="Metrics" loading="lazy" title="Github Metrics"/>
-  </picture>
-</div>
-
-## 📈 GitHub Stats
-
-<div align="left">
   <a href="https://github.com/natainditama">
     <!-- <picture>
       <source srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&theme=dark&hide_border=true&card_width=420" media="(prefers-color-scheme: dark)" />
@@ -40,3 +30,13 @@
     <!-- </picture> -->
   </a>
 </div>
+
+## 
+
+<div align="center">
+  <picture>
+    <source srcset="./github-metrics-small.svg" media="(max-width: 1024px)" />
+    <img src="./github-metrics.svg" alt="Metrics" loading="lazy" title="Github Metrics"/>
+  </picture>
+</div>
+
