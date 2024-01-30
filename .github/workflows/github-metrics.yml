@@ -23,6 +23,7 @@ jobs:
           filename: github-metrics.*
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_message: "chore: Update ${filename}"
+          base: activity, community, repositories, metadata
           plugin_introduction: no
           plugin_introduction_title: yes
           plugin_lines: yes
@@ -51,6 +52,7 @@ jobs:
           filename: github-metrics-small.*
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_message: "chore: Update ${filename}"
+          base: activity, community, repositories, metadata
           plugin_introduction: no
           plugin_introduction_title: yes
           plugin_lines: yes
