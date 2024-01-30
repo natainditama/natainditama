@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>🌟 About Me</h2>  
+  <h2>Nata Inditama</h2>  
   <a href="https://github.com/natainditama/">
     <img src="https://komarev.com/ghpvc/?username=natainditama&color=2563eb&label=Profile+Views" alt="Views Counter" />
   </a>
@@ -13,9 +13,9 @@
 <div align="center">
   <a href="https://github.com/natainditama">
     <picture>
-      <source srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&theme=dark&hide_border=true&card_width=220" media="(prefers-color-scheme: dark)" />
-      <source srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&theme=default&hide_border=true&card_width=220" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img src="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&hide_border=true&card_width=220" />
+      <source srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&theme=dark&hide_border=true&card_width=220&hide_title=true" media="(prefers-color-scheme: dark)" />
+      <source srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&theme=default&hide_border=true&card_width=220&hide_title=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img src="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&hide_border=true&card_width=220&hide_title=true" />
     </picture>
   </a>
 
@@ -26,8 +26,7 @@
   </a>
 </div>
 
-
-## 
+<h2></h2>   
 
 <div align="center">
   <picture>
