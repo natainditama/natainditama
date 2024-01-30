@@ -40,7 +40,7 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_display: compact
           plugin_achievements_limit: 0
-          config_order: base.header, introduction, base.activity+community, base.repositories, lines, wakatime, topics, achievements
+          config_order: introduction, base.activity+community, base.repositories, lines, wakatime, topics, achievements
      
       # Generate mobile github metrics
       - name: Generate mobile metrics
@@ -68,4 +68,5 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_display: compact
           plugin_achievements_limit: 0
-          config_order: base.header, introduction, base.activity+community, base.repositories, lines, wakatime, topics, achievements
+          config_order: introduction, base.activity+community, base.repositories, lines, wakatime, topics, achievements
+          
