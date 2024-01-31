@@ -11,21 +11,22 @@
 </div>
 
 <div align="center">
+  <picture>
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=natainditama&border_radius=&card_width=600&ring=0366D6&fire=0366D6&currStreakLabel=0366D6&border=FFFFFF00&background=FFFFFF00&stroke=FFFFFF00&currStreakNum=777777&sideNums=777777&sideLabels=777777&dates=959DA5&excludeDaysLabel=959DA5" alt="GitHub Streak" loading="lazy" title="GitHub Streak"/>
+  </picture>
+</div>
+
+<div align="center">
   <a href="https://github.com/natainditama">
-    <picture>
-      <source srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&theme=dark&hide_border=true&card_width=220&hide_title=true" media="(prefers-color-scheme: dark)" />
-      <source srcset="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&theme=default&hide_border=true&card_width=220&hide_title=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img src="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&hide_border=true&card_width=220&hide_title=true" />
-    </picture>
+    <img src="https://github-readme-stats.vercel.app/api?username=natainditama&show_icons=true&hide_border=true&text_bold=false&bg_color=FFFFFF00&icon_color=777777&text_color=959DA5&custom_title=%20GitHub%20Statistics&hide_rank=false&show=prs_merged,prs_merged_percentage&line_height=30" />
   </a>
 
   <a href="https://github.com/natainditama">
-      <source srcset="https://github-readme-streak-stats.herokuapp.com?user=natainditama&border_radius=&ring=2F80ED&fire=4C71F2&currStreakLabel=4C71F2&theme=dark&border=EBEBEB00&card_width=380" media="(prefers-color-scheme: dark)" />
-      <source srcset="https://github-readme-streak-stats.herokuapp.com?user=natainditama&border_radius=&ring=2F80ED&fire=4C71F2&currStreakLabel=4C71F2&theme=default&border=EBEBEB00&card_width=380" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=natainditama&border_radius=&ring=2F80ED&fire=4C71F2&currStreakLabel=4C71F2&border=EBEBEB00&card_width=380" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=natainditama&show_icons=true&hide_border=true&text_bold=false&bg_color=FFFFFF00&icon_color=777777&text_color=959DA5&langs_count=7&layout=donut&size_weight=0&count_weight=1" alt="Top Langs" />
   </a>
 </div>
 
+</br>
 
 <div align="center">
   <picture>
