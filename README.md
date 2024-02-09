@@ -33,6 +33,6 @@
 
 <div align="center">
   <picture>
-    <img src="./github-metrics-small.svg" alt="Metrics" loading="lazy" title="Github Metrics"/>
+    <img src="github-metrics.svg" alt="Metrics" loading="lazy" title="Github Metrics"/>
   </picture>
 </div>
