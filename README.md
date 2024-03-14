@@ -19,8 +19,6 @@
     <span> · </span>
     <a href="https://instagram.com/natainditama">Instagram</a>
     <span> · </span>
-    <a href="https://t.me/natainditama">Telegram</a>
-    <span> · </span>
     <a href="https://linkedin.com/in/natainditama">Linkedin</a>
   </h4>
 </div>
