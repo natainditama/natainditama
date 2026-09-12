@@ -30,9 +30,3 @@
     <img src="github-metrics.svg" alt="Metrics" loading="lazy" title="Github Metrics"/>
   </picture>
 </div>
-
-<div align="center">
-  <picture>
-    <img src="metrics.plugin.calendar.full.svg" alt="Commit Calendar" loading="lazy" title="Full History Calendar"/>
-  </picture>
-</div>
