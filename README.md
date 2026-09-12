@@ -27,6 +27,12 @@
 
 <div align="center">
   <picture>
-    <img src="github-metrics.svg" alt="Metrics" loading="lazy" title="Github Metrics"/>
+    <img src="github-metrics-top.svg" alt="Metrics" loading="lazy" title="Github Metrics Top"/>
+  </picture>
+  <picture>
+    <img src="github-metrics-middle.svg" alt="Metrics" loading="lazy" title="Github Metrics Middle"/>
+  </picture>
+  <picture>
+    <img src="github-metrics-bottom.svg" alt="Metrics" loading="lazy" title="Github Metrics Bottom"/>
   </picture>
 </div>

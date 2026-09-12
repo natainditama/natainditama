@@ -29,14 +29,14 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: Generate main metrics
+      - name: Generate top metrics
         # uses: lowlighter/metrics@latest
         uses: stalomeow/metrics@projects-v2
         with:
           debug: yes
           user: natainditama
           plugins_errors_fatal: no
-          filename: github-metrics.*
+          filename: github-metrics-top.*
           # Prioritize METRICS_TOKEN / PAT_TOKEN (Personal Access Token), fallback to built-in GITHUB_TOKEN
           token: ${{ secrets.METRICS_TOKEN || secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
@@ -55,14 +55,6 @@ jobs:
           plugin_wakatime_sections: time, languages, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_days: 30
-          plugin_languages: yes
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_ignored: html, css
-          plugin_languages_details: percentage
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 30
           # plugin_topics: yes
           # plugin_topics_limit: 30
           # plugin_topics_mode: mastered
@@ -71,26 +63,31 @@ jobs:
           # plugin_achievements_secrets: yes
           # plugin_achievements_display: compact
           # plugin_achievements_limit: 6
-          plugin_calendar: yes
-          plugin_calendar_limit: 3
-          config_order: introduction, base.activity+community, base.repositories, lines, wakatime, languages, topics, achievements, calendar
+          config_order: introduction, base.activity+community, base.repositories, lines, wakatime, topics, achievements
 
-      - name: Generate right metrics
+      - name: Generate middle metrics
+        # uses: lowlighter/metrics@latest
         uses: stalomeow/metrics@projects-v2
         with:
           debug: yes
           user: natainditama
           plugins_errors_fatal: no
-          filename: github-metrics-right.*
+          filename: github-metrics-middle.*
           # Prioritize METRICS_TOKEN / PAT_TOKEN (Personal Access Token), fallback to built-in GITHUB_TOKEN
           token: ${{ secrets.METRICS_TOKEN || secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_message: "chore: update ${filename}"
           template: classic
-          base: ""
+          base: metadata
           config_timezone: Asia/Singapore
-          plugin_achievements: yes
-          plugin_achievements_threshold: X
-          plugin_achievements_limit: 8
-          plugin_achievements_display: compact
-          config_order: achievements
+          base_skip: header, activity, community, repositories
+          plugin_languages: yes
+          plugin_languages_colors: github
+          plugin_languages_limit: 4
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 30
+          plugin_calendar: yes
+          plugin_calendar_limit: 3
+          config_order: calendar, languages
