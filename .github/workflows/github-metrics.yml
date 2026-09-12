@@ -30,7 +30,8 @@ jobs:
 
     steps:
       - name: Generate main metrics
-        uses: lowlighter/metrics@latest
+        # uses: lowlighter/metrics@latest
+        uses: gh-metrics/metrics@latest
         with:
           debug: yes
           plugins_errors_fatal: no
