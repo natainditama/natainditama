@@ -1,17 +1,36 @@
 name: Lint Commit Messages
-on: [pull_request]
 
+on:
+  # Run lint checks on pull requests targeting default branches
+  pull_request:
+    branches:
+      - master
+
+  # Allows manual triggering from the Actions tab
+  workflow_dispatch:
+
+# Cancel in-progress runs on the same pull request if new commits are pushed
+concurrency:
+  group: commitlint-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+# Principle of least privilege: only read permissions needed to inspect commits and PR metadata
 permissions:
   contents: read
   pull-requests: read
 
 jobs:
   commitlint:
+    name: Validate Conventional Commits
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
+        with:
+          # Fetch full git history so commitlint can validate all commits in the PR
+          fetch-depth: 0
 
-      - name: Check commitlint
+      - name: Check commit messages with commitlint
         uses: wagoid/commitlint-github-action@v6

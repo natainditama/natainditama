@@ -1,26 +1,42 @@
 name: Github Metrics
+
 on:
-  # Schedule daily updates
+  # Allows manual triggering from the Actions tab
+  workflow_dispatch:
+
+  # Scheduled daily update at 01:00 UTC (08:00 WIB)
   schedule:
     - cron: "0 1 * * *"
+
+  # Trigger on pushes to default branches
   push:
-    branches: [master, main]
+    branches:
+      - master
+
+# Prevent concurrent runs from conflicting when committing metrics SVG
+concurrency:
+  group: github-metrics-${{ github.ref }}
+  cancel-in-progress: true
+
+# Principle of least privilege: contents write is needed to commit the generated metrics SVG
+permissions:
+  contents: write
 
 jobs:
   github-metrics:
+    name: Generate and Update GitHub Metrics
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
+    timeout-minutes: 15
 
     steps:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.*
-          token: ${{ secrets.METRICS_TOKEN }}
+          # Prioritize METRICS_TOKEN / PAT_TOKEN (Personal Access Token), fallback to built-in GITHUB_TOKEN
+          token: ${{ secrets.METRICS_TOKEN || secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_message: "chore: Update ${filename}"
+          committer_message: "chore: update ${filename}"
           base: activity, community, repositories, metadata
           base_skip: header
           plugin_introduction: no
@@ -30,8 +46,9 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_history_limit: 1
           plugin_wakatime: yes
-          plugin_wakatime_sections: time, projects, languages, editors, os
+          plugin_wakatime_sections: time, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_days: 180
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: mastered
