@@ -26,7 +26,7 @@ jobs:
   github-metrics:
     name: Generate and Update GitHub Metrics
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Generate main metrics
@@ -41,6 +41,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN || secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_message: "chore: update ${filename}"
+          template: classic
           base: activity, community, repositories, metadata
           config_timezone: Asia/Singapore
           base_skip: header
@@ -77,14 +78,19 @@ jobs:
       - name: Generate right metrics
         uses: stalomeow/metrics@projects-v2
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-metrics-right.*
+          debug: yes
           user: natainditama
+          plugins_errors_fatal: no
+          filename: github-metrics-right.*
+          # Prioritize METRICS_TOKEN / PAT_TOKEN (Personal Access Token), fallback to built-in GITHUB_TOKEN
+          token: ${{ secrets.METRICS_TOKEN || secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update ${filename}"
           template: classic
           base: ""
           config_timezone: Asia/Singapore
           plugin_achievements: yes
           plugin_achievements_threshold: X
           plugin_achievements_limit: 8
-          plugin_achievements_display: detailed
+          plugin_achievements_display: compact
           config_order: achievements
