@@ -44,6 +44,7 @@ jobs:
           template: classic
           base: activity, community, repositories, metadata
           config_timezone: Asia/Singapore
+          config_padding: 0, 8 + 15%
           base_skip: header
           plugin_introduction: no
           plugin_introduction_title: yes
@@ -80,6 +81,7 @@ jobs:
           template: classic
           base: metadata
           config_timezone: Asia/Singapore
+          config_padding: 0, 8 + 15%
           base_skip: header, activity, community, repositories
           plugin_languages: yes
           plugin_languages_colors: github

@@ -1,4 +1,5 @@
 ## 🔄 Type of Changes
+
 Please indicate the type of changes made in this pull request by putting an 'x' in the relevant checkboxes:
 
 - [ ] Bug fix
@@ -8,6 +9,7 @@ Please indicate the type of changes made in this pull request by putting an 'x' 
 - [ ] Performance improvement
 
 ## ✅ Checklist
+
 Please review and check the following items before submitting the pull request:
 
 - [ ] Code follows project's style and conventions.

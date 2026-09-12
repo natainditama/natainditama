@@ -38,7 +38,7 @@ Improvements to the project's documentation are highly appreciated. Feel free to
 
 By contributing to the project, you agree to license your contributions under the project's specified license.
 
-## 🙏 Acknowledgements 
+## 🙏 Acknowledgements
 
 We would like to express our gratitude to all contributors for their valuable contributions to this project. Your efforts are greatly appreciated!
 
