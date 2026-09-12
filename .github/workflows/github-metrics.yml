@@ -31,11 +31,46 @@ jobs:
     steps:
       - name: Generate main metrics
         # uses: lowlighter/metrics@latest
-        uses: gh-metrics/metrics@latest
+        uses: gh-metrics/metrics@master
         with:
           debug: yes
           plugins_errors_fatal: no
           filename: github-metrics.*
+          # Prioritize METRICS_TOKEN / PAT_TOKEN (Personal Access Token), fallback to built-in GITHUB_TOKEN
+          token: ${{ secrets.METRICS_TOKEN || secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update ${filename}"
+          base: activity, community, repositories, metadata
+          base_skip: header
+          plugin_introduction: no
+          plugin_introduction_title: yes
+          plugin_lines: yes
+          plugin_lines_sections: base
+          plugin_lines_repositories_limit: 4
+          plugin_lines_history_limit: 1
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, languages, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_days: 30
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: mastered
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: compact
+          plugin_achievements_limit: 0
+          plugin_calendar: yes
+          plugin_calendar_limit: 3
+          config_order: introduction, base.activity+community, base.repositories, lines, wakatime, topics, achievements, calendar
+
+      - name: Generate main metrics
+        # uses: lowlighter/metrics@latest
+        uses: stalomeow/metrics@projects-v2
+        with:
+          debug: yes
+          plugins_errors_fatal: no
+          filename: github-metrics-full.*
           # Prioritize METRICS_TOKEN / PAT_TOKEN (Personal Access Token), fallback to built-in GITHUB_TOKEN
           token: ${{ secrets.METRICS_TOKEN || secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
