@@ -26,10 +26,10 @@ jobs:
   github-metrics:
     name: Generate and Update GitHub Metrics
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
 
     steps:
-      - name: Generate metrics
+      - name: Generate main metrics
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.*
@@ -46,9 +46,9 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_history_limit: 1
           plugin_wakatime: yes
-          plugin_wakatime_sections: time, languages, languages-graphs, editors, os
+          plugin_wakatime_sections: time, languages, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          plugin_wakatime_days: 180
+          plugin_wakatime_days: 30
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: mastered
@@ -58,3 +58,14 @@ jobs:
           plugin_achievements_display: compact
           plugin_achievements_limit: 0
           config_order: introduction, base.activity+community, base.repositories, lines, wakatime, topics, achievements
+
+      - name: Generate full history calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.calendar.full.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update metrics full calendar"
+          base: ""
+          plugin_calendar: yes
+          plugin_calendar_limit: 0

@@ -3,7 +3,7 @@
   <h1>Hi, I'm <a href="https://github.com/natainditama">Nata Inditama</a>!</h1>  
   <p>
     <a href="https://github.com/natainditama">
-      <img src="https://komarev.com/ghpvc/?username=natainditama&color=2563eb&label=Profile+Views" alt="Views Counter" />
+      <img src="https://komarev.com/ghpvc/?username=natainditama&color=2563eb&label=Profile+Views&style=for-the-badge" alt="Views Counter" />
     </a>
     <a href="https://music.youtube.com/playlist?list=PLDGWt_EgIotdc542r8mfhhS_fW2DFJrIZ">
       <img src="https://sound-badge.vercel.app/api/card.svg?url=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3DGuTRQcdIAk8&theme=badge" alt="Sound Badge" />
@@ -28,5 +28,11 @@
 <div align="center">
   <picture>
     <img src="github-metrics.svg" alt="Metrics" loading="lazy" title="Github Metrics"/>
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <img src="metrics.plugin.calendar.full.svg" alt="Commit Calendar" loading="lazy" title="Full History Calendar"/>
   </picture>
 </div>
