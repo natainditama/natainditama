@@ -21,7 +21,7 @@
 
 <div align="center">
   <picture>
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=natainditama&border_radius=&card_width=500&ring=0366D6&fire=0366D6&currStreakLabel=0366D6&border=FFFFFF00&background=FFFFFF00&stroke=FFFFFF00&currStreakNum=777777&sideNums=777777&sideLabels=777777&dates=959DA5&excludeDaysLabel=959DA5" alt="GitHub Streak" loading="lazy" title="GitHub Streak"/>
+    <img src="github-streak.svg" alt="GitHub Streak" loading="lazy" title="GitHub Streak"/>
   </picture>
 </div>
 

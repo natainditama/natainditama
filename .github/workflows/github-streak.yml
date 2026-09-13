@@ -1,0 +1,50 @@
+name: Github Streak
+
+on:
+  # Scheduled daily update at 01:30 UTC (08:30 WIB)
+  schedule:
+    - cron: "30 1 * * *"
+
+  # Trigger on pushes that modify this workflow file
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/github-streak.yml"
+
+  # Allows manual triggering from the Actions tab
+  workflow_dispatch:
+
+# Prevent concurrent runs from conflicting when committing streak stats SVG
+concurrency:
+  group: github-streak-${{ github.ref }}
+  cancel-in-progress: true
+
+# Principle of least privilege: contents write is needed to commit the generated streak SVG
+permissions:
+  contents: write
+
+jobs:
+  github-streak:
+    name: Generate and Update GitHub Streak
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=natainditama&border_radius=&card_width=500&ring=0366D6&fire=0366D6&currStreakLabel=0366D6&border=FFFFFF00&background=FFFFFF00&stroke=FFFFFF00&currStreakNum=777777&sideNums=777777&sideLabels=777777&dates=959DA5&excludeDaysLabel=959DA5
+          path: github-streak.svg
+          token: ${{ secrets.STREAK_STATS_TOKEN || secrets.METRICS_TOKEN || secrets.PAT_TOKEN || secrets.TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit streak stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-streak.svg
+          git diff --staged --quiet || git commit -m "chore: update github-streak.svg"
+          git push
